@@ -1,11 +1,10 @@
-import logo from "../assets/logo.png";
+import Logo from "./UI/Logo";
 
 const Sidebar = () => {
   return (
     <div className="h-screen w-72 py-10 border-r-2">
-      <div className="flex justify-start items-center gap-3 px-5">
-        <img className=" w-14 h-14" src={logo} alt="logo" />
-        <h1 className="text-xl text-gray-600">E-Shop</h1>
+      <div className="px-5">
+        <Logo />
       </div>
       <div className="mt-10 text-lg font-semibold text-gray-600">
         <ul>
